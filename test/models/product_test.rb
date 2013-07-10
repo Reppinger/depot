@@ -47,6 +47,14 @@ class ProductTest < ActiveSupport::TestCase
 
   end
 
+  test "product title must be at least ten characters" do
+    product = Product.new(title: "123456789",
+                          description: "yyy",
+                          price: 1,
+                          image_url: "fred.gif")
+    assert product.invalid?
+  end
+
   def new_product(image_url)
     Product.new(title: "My Book Title",
                           description: "yyy",
