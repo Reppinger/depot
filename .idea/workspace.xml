@@ -6,7 +6,7 @@
     </list>
     <ignored path="depot.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0d2360f9-a8d0-4742-8e6b-ee5118e63988" time="1373596440750" ignored="false" />
+    <file path="/Dummy.txt" changelist="0d2360f9-a8d0-4742-8e6b-ee5118e63988" time="1373596484456" ignored="false" />
     <file path="/20130707033136_create_products.rb" changelist="0d2360f9-a8d0-4742-8e6b-ee5118e63988" time="1373168011941" ignored="false" />
     <file path="/_form.html.erb" changelist="0d2360f9-a8d0-4742-8e6b-ee5118e63988" time="1373168359465" ignored="false" />
     <file path="/seeds.rb" changelist="0d2360f9-a8d0-4742-8e6b-ee5118e63988" time="1373170221482" ignored="false" />
@@ -547,7 +547,11 @@
       <created>1373596479030</created>
       <updated>1373596479030</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished 8.3.">
+      <created>1373596489698</created>
+      <updated>1373596489698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
