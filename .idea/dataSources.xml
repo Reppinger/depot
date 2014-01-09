@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" hash="3234292087">
-    <data-source source="LOCAL" name="Rails depot: development" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="d5f4855e-fb4e-4a97-92a4-af86509b2fc6">
+    <data-source source="LOCAL" name="Rails depot: development" uuid="d5f4855e-fb4e-4a97-92a4-af86509b2fc6">
+      <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
       <libraries>
@@ -10,7 +11,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails depot: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="3e6dd18a-c319-4a33-9524-8ba5a460dca5">
+    <data-source source="LOCAL" name="Rails depot: test" uuid="3e6dd18a-c319-4a33-9524-8ba5a460dca5">
+      <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
       <libraries>

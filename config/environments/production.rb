@@ -27,7 +27,8 @@ Depot::Application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
+  #Attempt to fix issue with assets pipeline per http://railsblog.kieser.net/2013/08/rails4-phusion-passenger-asset-pipeline.html
+  config.assets.compile = true
 
   # Generate digests for assets URLs.
   config.assets.digest = true
