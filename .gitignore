@@ -18,3 +18,5 @@
 /log/*.log
 /tmp
 .idea/workspace.xml
+
+.DS_Store
